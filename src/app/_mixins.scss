@@ -1,0 +1,16 @@
+@mixin centerInnerElement {
+  display: flex;
+  flex-flow: column nowrap; 
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flexRow {
+  display: flex;
+  flex-direction: row;
+}

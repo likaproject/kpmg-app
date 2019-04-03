@@ -1,0 +1,53 @@
+@import '../mixins';
+
+.aboutBlock {
+  background-color: #E9F4FA;
+  margin: 0 auto;
+  &__title {
+    text-transform: uppercase;
+    color: #1c8ece;
+    text-align: center;
+    padding: 50px 0 20px 0;
+  }
+  &__columns {
+    display: flex;
+    padding: 50px 0;
+    &:nth-child(2) {
+        &_ico {
+          padding-top: 20px;
+        }
+      }
+    &_col {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: space-around;
+      
+      &_more {
+        text-decoration: underline;
+        font-size: 10px;
+        color: #1c8ece; 
+        &:hover {
+          color: navy;
+        }
+        &:active {
+          color: orangered;
+        }
+      }
+      &_title {
+        text-transform: uppercase;
+        color: #1c8ece;
+        text-align: center;
+      }
+      &_text {
+        text-align: center;
+        width: 70%;
+      }
+      &_link {
+        margin-top: 20px;
+      }
+    }
+  }
+}

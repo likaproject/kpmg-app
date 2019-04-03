@@ -1,0 +1,48 @@
+header {
+  background-color: #223b7e;
+  height: 95px;
+  & > .container {
+    padding: 0;
+    nav, .logo, ul {
+      display: flex;
+      ul {
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        .logo {
+          height: 95px;
+          align-items: center;
+        }
+        li {
+          & > a{
+             color: #ffffff;
+            &.underlinedLink {
+              border-bottom: 2px solid #ffffff;
+            }
+          }
+        }
+        &:nth-child(1) {
+          color: #ffffff;
+        }
+        .challenge {
+          height: 40px;
+          width: 200px;
+          border: 1px solid #0072BB;
+          border-radius: 20px;
+          padding: 5px 20px;
+          text-transform: uppercase;
+        }
+        .lang_select_item {
+          width: 70px;
+          &:hover {
+              cursor: pointer;
+          }
+          &:after {
+            content: url("../../assets/img/lang_arrow.png"); 
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}

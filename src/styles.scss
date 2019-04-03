@@ -1,0 +1,42 @@
+@import "./assets/fonts/fonts.scss";
+
+html, 
+body,
+.wrapper,
+ul,
+section,
+p, 
+h1, h2, h3, h4, h5, h6,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+html, 
+body{
+  font-family: segoe_ui_regular, sans-serif;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  width: 100%;
+}
