@@ -1,13 +1,12 @@
 @import '../mixins';
 
 .footerBlock {
-  @include flexColumn;
+  @include centerInnerElement;
   
-  align-items: center;
-  justify-content: space-around;
   font-size: 10px;
   color: #223b7e;
   height: 156px;
+  padding: 25px 0 20px 0;
   &__contactUs {
     font-size: 12px;
     & a {

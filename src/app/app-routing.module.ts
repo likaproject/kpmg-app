@@ -5,8 +5,6 @@ import { HomeComponent } from './home/home.component';
 import { AdminComponent } from './admin/admin.component';
 import { AuthComponent  } from './auth/auth.component';
 
-
-
 const routes: Routes = [
 
   { path: 'users', component: HomeComponent },
